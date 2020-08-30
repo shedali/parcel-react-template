@@ -1,0 +1,27 @@
+{
+  "name": "ceviche3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^16.9.44",
+    "@types/react-router-dom": "^5.1.5",
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "firebase": "^7.17.1",
+    "mobx": "^5.15.5",
+    "mobx-react": "^6.2.5",
+    "mobx-state-tree": "^3.17.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "semantic-ui-react": "^0.88.2"
+  },
+  "scripts": {
+    "dev": "parcel src/index.html --out-dir build/debug",
+    "build": "parcel build src/index.html --out-dir build/release --public-url ./"
+  }
+}
